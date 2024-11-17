@@ -1,0 +1,11 @@
+{
+    "name": "easy-linkedin",
+    "version": "1.0.0",
+    "description": "Chrome extension to automate LinkedIn connection requests",
+    "scripts": {
+        "build": "zip -r easy-linkedin.zip src/*"
+    },
+    "author": "Alvaro Peña",
+    "license": "MIT",
+    "private": true
+}
