@@ -1,5 +1,3 @@
-Easy LinkedIn
-
 # Easy LinkedIn
 
 A Chrome extension to enhance your LinkedIn experience and boost productivity.
