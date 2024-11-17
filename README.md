@@ -4,47 +4,43 @@ A Chrome extension to automate sending LinkedIn connection requests.
 
 ## Features
 
-- Bulk send connection requests from a list of [LinkedIn](https://www.linkedin.com) profile URLs
-- Simple CSV file upload interface
-- Automatic "Connect" button clicking
+- Import LinkedIn profile URLs from CSV file
+- Automatically send connection requests
+- Simple and easy to use interface
 
 ## Installation
 
-1. Download or clone this repository
-2. Open Chrome and go to [`chrome://extensions/`](chrome://extensions/)
-3. Enable "Developer mode" in the top right
-4. Click "Load unpacked" and select the extension directory
+### From Release
+
+1. Download the latest release from the [Releases page](https://github.com/YOUR_USERNAME/easy-linkedin/releases)
+2. Unzip the file
+3. Go to Chrome Extensions (chrome://extensions/)
+4. Enable "Developer mode"
+5. Click "Load unpacked"
+6. Select the unzipped folder
+
+### From Source
+
+1. Clone this repository
+2. Go to Chrome Extensions (chrome://extensions/)
+3. Enable "Developer mode"
+4. Click "Load unpacked"
+5. Select the `src` folder
 
 ## Usage
 
-1. Create a CSV file containing [LinkedIn](https://www.linkedin.com) profile URLs (one URL per line)
-2. Click the Easy LinkedIn extension icon in Chrome
-3. Use the file input to upload your CSV file
-4. Once loaded, click "Start Sending Requests" to begin the automation
-5. The extension will:
-   - Open each profile in a new tab
-   - Click the Connect button
-   - Send without a note
-   - Close the tab
-   - Move to the next profile
+1. Create a CSV file with LinkedIn profile URLs (one URL per line)
+2. Click the extension icon
+3. Upload your CSV file
+4. Click "Start Sending Requests"
 
-Note: Make sure you're logged into [LinkedIn](https://www.linkedin.com) before using the extension.
+## Development
 
-## Important Requirements
+1. Clone the repository
+2. Make your changes in the `src` folder
+3. Test the extension locally
+4. Create a pull request
 
-- The CSV file must contain valid [LinkedIn](https://www.linkedin.com) profile URLs
-- Your [LinkedIn](https://www.linkedin.com) account should be logged in
-- Chrome must have permission to access [LinkedIn.com](https://www.linkedin.com)
-- Allow the extension to run its automation (don't close Chrome during processing)
+## License
 
-## Privacy & Security
-
-This extension:
-
-- Only works on [LinkedIn.com](https://www.linkedin.com) domains
-- Stores URLs temporarily in Chrome's local storage
-- Does not collect or transmit any personal data
-
-## Support
-
-For issues, please ensure you've followed the usage instructions carefully before reporting problems in the [GitHub issues](https://github.com/issues) section.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
