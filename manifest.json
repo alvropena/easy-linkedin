@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Easy LinkedIn",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*.linkedin.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
